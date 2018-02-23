@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
         //text view with birthday date
         TextView birthday =  findViewById(R.id.birthday);
-        birthday.setText("25 Sept 1996");
+        birthday.setText("Birthday: 25 Sept 1996");
 
         //text view with country
         TextView country =  findViewById(R.id.country);
-        country.setText("Romania/Ireland");
+        country.setText("Country: Romania/Ireland");
     }
 }
