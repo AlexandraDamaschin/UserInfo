@@ -13,19 +13,23 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 //        image view
-        ImageView picture =  findViewById(R.id.profile_picture);
+        ImageView picture = findViewById(R.id.profile_picture);
         picture.setImageResource(R.drawable.profil_picture);
 
         //text view with name
-        TextView name=  findViewById(R.id.name);
+        TextView name = findViewById(R.id.name);
         name.setText("Alexandra Damaschin");
 
         //text view with birthday date
-        TextView birthday =  findViewById(R.id.birthday);
+        TextView birthday = findViewById(R.id.birthday);
         birthday.setText("Birthday: 25 Sept 1996");
 
         //text view with country
-        TextView country =  findViewById(R.id.country);
-        country.setText("Country: Romania/Ireland");
+        TextView country = findViewById(R.id.country);
+        country.setText("Country: Romania");
+
+        //text view with erasmus
+        TextView erasmus = findViewById(R.id.erasmus);
+        erasmus.setText("Erasmus in Ireland");
     }
 }

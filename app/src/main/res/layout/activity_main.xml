@@ -15,8 +15,8 @@
         android:layout_marginTop="30dp"
         android:gravity="center_horizontal"
         android:padding="4dp"
-        android:textSize="40sp"
-        android:text="@string/name" />
+        android:text="@string/name"
+        android:textSize="40sp" />
 
     <!--profile picture -->
     <ImageView
@@ -31,8 +31,8 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:padding="4dp"
-        android:textSize="20sp"
-        android:text="@string/birthday" />
+        android:text="@string/birthday"
+        android:textSize="20sp" />
 
     <!--textView with country-->
     <TextView
@@ -41,7 +41,16 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:padding="4dp"
-        android:textSize="20sp"
-        android:text="@string/country" />
+        android:text="@string/country"
+        android:textSize="20sp" />
 
+    <!--textView with country-->
+    <TextView
+        android:id="@+id/erasmus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="4dp"
+        android:text="@string/erasmus"
+        android:textSize="20sp" />
 </LinearLayout>

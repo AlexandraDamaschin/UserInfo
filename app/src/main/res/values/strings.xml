@@ -3,4 +3,5 @@
     <string name="name">Name</string>
     <string name="birthday">Birthday date</string>
     <string name="country">Country</string>
+    <string name="erasmus">Erasmus in</string>
 </resources>
