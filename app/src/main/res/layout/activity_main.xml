@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.android.userprofile.MainActivity">
-
-    <!--profile picture -->
-    <ImageView
-        android:id="@+id/profile_picture"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 
     <!--textView with name-->
     <TextView
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="520dp"
         android:gravity="center_horizontal"
         android:padding="4dp"
         android:text="@string/name" />
+
+    <!--profile picture -->
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp" />
 
     <!--textView with birthday-->
     <TextView
         android:id="@+id/birthday"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="540dp"
         android:gravity="center_horizontal"
         android:padding="4dp"
         android:text="@string/birthday" />
@@ -37,9 +36,8 @@
         android:id="@+id/country"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="560dp"
         android:gravity="center_horizontal"
         android:padding="4dp"
         android:text="@string/country" />
 
-</RelativeLayout>
+</LinearLayout>
