@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">UserProfile</string>
-    <string name="name">Alexandra Damaschin</string>
-    <string name="birthday">25 Sept 1996</string>
-    <string name="country">Romania/Ireland</string>
+    <string name="name">Name</string>
+    <string name="birthday">Birthday date</string>
+    <string name="country">Country</string>
 </resources>
