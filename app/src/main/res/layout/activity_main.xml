@@ -15,6 +15,7 @@
         android:layout_marginTop="30dp"
         android:gravity="center_horizontal"
         android:padding="4dp"
+        android:textColor="@color/accent"
         android:text="@string/name"
         android:textSize="40sp" />
 
@@ -31,6 +32,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:padding="4dp"
+        android:textColor="@color/accent"
         android:text="@string/birthday"
         android:textSize="20sp" />
 
@@ -41,6 +43,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:padding="4dp"
+        android:textColor="@color/accent"
         android:text="@string/country"
         android:textSize="20sp" />
 
@@ -51,6 +54,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:padding="4dp"
+        android:textColor="@color/accent"
         android:text="@string/erasmus"
         android:textSize="20sp" />
 </LinearLayout>
